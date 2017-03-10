@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cheese.cs" />
+    <Compile Include="Crust.cs" />
+    <Compile Include="Pizza.cs" />
+    <Compile Include="PizzaStore.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sauce.cs" />
+    <Compile Include="SimplePizzaFactory.cs" />
+    <Compile Include="Toppings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
